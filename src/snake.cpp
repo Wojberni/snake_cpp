@@ -77,7 +77,7 @@ void CSnake::paint() {
 }
 
 void CSnake::paint_pause(){
-    gotoyx( geom.topleft.y + geom.size.y+2, geom.topleft.x + (geom.size.x / 2) - 6);
+    gotoyx( geom.topleft.y + geom.size.y/2+2, geom.topleft.x + (geom.size.x / 2) - 6);
     printl("Game paused!");
 }
 
